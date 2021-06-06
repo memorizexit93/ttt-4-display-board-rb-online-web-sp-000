@@ -4,6 +4,5 @@ def display_board(board)
   b += " " + board[3] + " | " + board[4] + " | " + board[5] + " " + "\n"
   b += "-----------" + "\n"
   b += " " + board[6] + " | " + board[7] + " | " + board[8] + " " + "\n"
-  return b
 end
 
