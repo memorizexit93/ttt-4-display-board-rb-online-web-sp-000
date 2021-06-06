@@ -1,2 +1,4 @@
-# Define display_board that accepts a board and prints
-# out the current state.
+require enumerator
+def display_board(board_info)
+  rows = board_info.each_slice(3).to_a
+end
