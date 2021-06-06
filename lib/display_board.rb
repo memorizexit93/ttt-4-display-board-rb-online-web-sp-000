@@ -1,5 +1,6 @@
-def display_board(board_info)
-  board = " " + board_info[0] + " | " + board_info[1] + " | " + board_info[2] + " "
-  board = board + " " + board_info[3] + " | " + board_info[4] + " | " + board_info[5] + " "
+def display_board(board)
+  b = " " + board[0] + " | " + board[1] + " | " + board[2] + " "
+  b = b + " " + board[3] + " | " + board[4] + " | " + board[5] + " "
+  b = b + " " + board[3] + " | " + board[4] + " | " + board[5] + " "
 end
 
